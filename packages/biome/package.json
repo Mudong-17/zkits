@@ -1,0 +1,8 @@
+{
+  "name": "@zkits/biome",
+  "version": "1.0.0",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}
