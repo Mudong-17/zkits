@@ -1,8 +1,11 @@
 {
   "name": "@zkits/biome",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
+  },
+  "peerDependencies": {
+    "@biomejs/biome": "1.9.4"
   }
 }
