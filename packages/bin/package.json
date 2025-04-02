@@ -1,0 +1,27 @@
+{
+  "name": "@zkits/bin",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "trash": "./bin/trash.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "packageManager": "pnpm@10.5.2",
+  "dependencies": {
+    "trash-cli": "^6.0.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}
