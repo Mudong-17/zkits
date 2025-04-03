@@ -1,6 +1,6 @@
 {
   "name": "@zkits/bin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "bin": {
     "trash": "./bin/trash.js"
@@ -18,7 +18,8 @@
   "license": "MIT",
   "packageManager": "pnpm@10.5.2",
   "dependencies": {
-    "trash-cli": "^6.0.0"
+    "trash-cli": "^6.0.0",
+    "tsup": "^8.4.0"
   },
   "publishConfig": {
     "access": "public",
