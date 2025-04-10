@@ -17,6 +17,9 @@ importers:
       '@zkits/bin':
         specifier: ^1.0.2
         version: 1.0.2(typescript@5.8.3)
+      '@zkits/tsconfig':
+        specifier: ^1.0.0
+        version: 1.0.0
       turbo:
         specifier: ^2.4.4
         version: 2.4.4
@@ -717,6 +720,9 @@ packages:
   '@zkits/bin@1.0.2':
     resolution: {integrity: sha512-XThAl7jU6xa97xqZ7DCBQZS3MoCjfQ8eZ9CWnxTEDGBM+eHzDm0JRSo2Zt0IStmgQxpqQ+N4UcB6Kp3qzaTa0w==}
     hasBin: true
+
+  '@zkits/tsconfig@1.0.0':
+    resolution: {integrity: sha512-eonwlR6gDwIrIQ4IP+2OgmGHxqtUFE238LokS+yG9xtNqBbvQ0CjYr5TzSFoTbRVwwMla+VUUsMROsfsF5fzwA==}
 
   acorn-walk@8.3.4:
     resolution: {integrity: sha512-ueEepnujpqee2o5aIYnvHU6C0A42MNdsIDeqy5BydrkuC5R1ZuUFnm27EeFJGoEHJQgn3uleRvmTXaJgfXbt4g==}
@@ -3230,6 +3236,8 @@ snapshots:
       - tsx
       - typescript
       - yaml
+
+  '@zkits/tsconfig@1.0.0': {}
 
   acorn-walk@8.3.4:
     dependencies:
