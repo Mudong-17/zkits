@@ -14,8 +14,9 @@
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
     "@changesets/cli": "^2.27.1",
+    "@zkits/bin": "^1.0.2",
     "turbo": "^2.4.4",
-    "@zkits/bin": "^1.0.2"
+    "typescript": "^5.8.3"
   },
   "engines": {
     "node": ">=18"

@@ -1,0 +1,44 @@
+{
+  "name": "@zkits/prettier",
+  "version": "1.0.0",
+  "description": "",
+  "exports": {
+    "./base": {
+      "types": "./src/base.ts",
+      "default": "./dist/base.js"
+    }
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "tsup": {
+    "entry": [
+      "src/**/*.ts"
+    ],
+    "format": [
+      "esm"
+    ],
+    "clean": true,
+    "minify": true
+  },
+  "packageManager": "pnpm@10.5.2",
+  "dependencies": {
+    "prettier": "^3.5.3",
+    "prettier-plugin-multiline-arrays": "^4.0.3",
+    "prettier-plugin-organize-imports": "^4.1.0",
+    "prettier-plugin-packagejson": "^2.5.10",
+    "prettier-plugin-prisma": "^5.0.0",
+    "prettier-plugin-tailwindcss": "^0.6.11"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}
