@@ -6,7 +6,8 @@ node_modules
 dist
 dist-ssr
 *.local
-.env
+.env.keys
+!.env.example
 .cache
 server/dist
 public/dist
