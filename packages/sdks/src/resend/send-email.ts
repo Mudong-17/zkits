@@ -1,6 +1,6 @@
 import type { ResendClient } from "./_client";
 
-interface SendEmailParams {
+export interface SendEmailParams {
   from: string;
   to: string | string[];
   subject: string;

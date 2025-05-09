@@ -1,16 +1,16 @@
 {
   "name": "@zkits/sdks",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "sdk 集合",
   "type": "module",
   "exports": {
     "./resend": {
-      "import": "./dist/resend.js",
-      "types": "./dist/resend.d.ts"
+      "import": "./dist/resend/index.js",
+      "types": "./dist/resend/index.d.ts"
     },
     "./wechat-mina": {
-      "import": "./dist/wechat-mina.js",
-      "types": "./dist/wechat-mina.d.ts"
+      "import": "./dist/wechat-mina/index.js",
+      "types": "./dist/wechat-mina/index.d.ts"
     }
   },
   "files": [
