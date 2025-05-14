@@ -1,4 +1,4 @@
-import type { ResendClient } from "./_client";
+import type { ResendClient, ResendResponse } from "./_client";
 
 export interface SendEmailParams {
   from: string;
@@ -27,6 +27,6 @@ export interface SendEmailParams {
 export const sendEmail = async (
   client: ResendClient,
   params: SendEmailParams
-): Promise<{ id: string }> => {
+): Promise<ResendResponse> => {
   return await client.post("/email", params);
 };

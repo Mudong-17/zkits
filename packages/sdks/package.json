@@ -1,6 +1,6 @@
 {
   "name": "@zkits/sdks",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "sdk 集合",
   "type": "module",
   "exports": {

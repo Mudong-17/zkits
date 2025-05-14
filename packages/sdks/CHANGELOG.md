@@ -1,5 +1,11 @@
 # @zkits/sdks
 
+## 0.0.3
+
+### Patch Changes
+
+- 更新 sendEmail 方法的返回类型 ResendResponse
+
 ## 0.0.2
 
 ### Patch Changes
