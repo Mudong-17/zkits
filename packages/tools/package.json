@@ -10,6 +10,10 @@
     "./day": {
       "import": "./dist/day/index.js",
       "types": "./dist/day/index.d.ts"
+    },
+    "./exception": {
+      "import": "./dist/exception/index.js",
+      "types": "./dist/exception/index.d.ts"
     }
   },
   "scripts": {
