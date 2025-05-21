@@ -1,6 +1,6 @@
 {
   "name": "@zkits/tools",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "工具函数库",
   "exports": {
     "./crypto": {
@@ -14,6 +14,10 @@
     "./exception": {
       "import": "./dist/exception/index.js",
       "types": "./dist/exception/index.d.ts"
+    },
+    "./zkotash": {
+      "import": "./dist/zkotash/index.js",
+      "types": "./dist/zkotash/index.d.ts"
     }
   },
   "scripts": {
@@ -39,6 +43,10 @@
     "dts": true,
     "clean": true,
     "minify": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mudong-17/zkits/tree/main/packages/tools"
   },
   "devDependencies": {
     "@types/crypto-js": "^4.2.2"

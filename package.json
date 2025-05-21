@@ -20,6 +20,10 @@
     "turbo": "^2.4.4",
     "typescript": "^5.8.3"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mudong-17/zkits"
+  },
   "engines": {
     "node": ">=18"
   },

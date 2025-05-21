@@ -1,4 +1,4 @@
-import { capitalize, caseSnake, caseStart, getWords } from "./string";
+import { caseSnake, caseTitle, get } from "../zkotash";
 
 export class BaseException extends Error {
   public status: number;
@@ -12,7 +12,7 @@ export class BaseException extends Error {
 
     this.status = status;
     this.code = code;
-    const normalizedCode = caseStart(code.replace(/^Exception|Exception$/, ""));
+    const normalizedCode = caseTitle(code.replace(/^Exception|Exception$/, ""));
     this.code = caseSnake(`E ${normalizedCode}`).toUpperCase();
 
     this.#_messages = messages ?? normalizedCode;
