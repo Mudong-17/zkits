@@ -1,23 +1,23 @@
 {
   "name": "@zkits/tools",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "工具函数库",
   "exports": {
     "./crypto": {
-      "import": "./dist/crypto/index.js",
-      "types": "./dist/crypto/index.d.ts"
+      "import": "./dist/crypto/index.mjs",
+      "types": "./dist/crypto/index.d.mts"
     },
     "./day": {
-      "import": "./dist/day/index.js",
-      "types": "./dist/day/index.d.ts"
+      "import": "./dist/day/index.mjs",
+      "types": "./dist/day/index.d.mts"
     },
     "./exception": {
-      "import": "./dist/exception/index.js",
-      "types": "./dist/exception/index.d.ts"
+      "import": "./dist/exception/index.mjs",
+      "types": "./dist/exception/index.d.mts"
     },
     "./zkotash": {
-      "import": "./dist/zkotash/index.js",
-      "types": "./dist/zkotash/index.d.ts"
+      "import": "./dist/zkotash/index.mjs",
+      "types": "./dist/zkotash/index.d.mts"
     }
   },
   "scripts": {

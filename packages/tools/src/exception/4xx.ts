@@ -24,6 +24,15 @@ export class NotFoundException extends BaseException {
   }
 }
 
+export class UnprocessableEntityException extends BaseException {
+  public constructor(
+    messages?: unknown,
+    code = "UnprocessableEntityException"
+  ) {
+    super(422, messages, code);
+  }
+}
+
 export class ClientException extends BaseException {
   public constructor(messages?: unknown, code = "ClientException") {
     super(400, messages, code);
