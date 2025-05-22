@@ -1,18 +1,9 @@
-import {
-  BadRequestException,
-  ClientException,
-  ForbiddenException,
-  NotFoundException,
-  UnauthorizedException,
-} from "./4xx";
-import { InternalErrorException, ServerErrorException } from "./5xx";
+import * as Exception4xx from "./4xx";
+import * as Exception5xx from "./5xx";
 
 export const Exception = {
-  BadRequestException,
-  UnauthorizedException,
-  ForbiddenException,
-  NotFoundException,
-  ClientException,
-  InternalErrorException,
-  ServerErrorException,
+  ...Exception4xx,
+  ...Exception5xx,
 };
+
+export type Exception = typeof Exception;
