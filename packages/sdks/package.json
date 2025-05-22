@@ -1,6 +1,6 @@
 {
   "name": "@zkits/sdks",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "sdk 集合",
   "type": "module",
   "exports": {
@@ -22,7 +22,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "packageManager": "pnpm@10.5.2",
   "dependencies": {
     "ufo": "^1.6.1"

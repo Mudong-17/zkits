@@ -1,5 +1,11 @@
 # @zkits/sdks
 
+## 0.0.4
+
+### Patch Changes
+
+- 修改为 MIT 许可证
+
 ## 0.0.3
 
 ### Patch Changes

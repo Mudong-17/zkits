@@ -1,5 +1,11 @@
 # @zkits/prettier
 
+## 1.0.1
+
+### Patch Changes
+
+- 修改为 MIT 许可证
+
 ## 1.0.0
 
 ### Major Changes
