@@ -1,5 +1,11 @@
 # @zkits/tools
 
+## 1.0.5
+
+### Patch Changes
+
+- 在异常处理模块中新增 BaseException 类的导入，增强异常对象的功能整合。
+
 ## 1.0.4
 
 ### Patch Changes
