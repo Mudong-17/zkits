@@ -1,5 +1,11 @@
 # @zkits/tools
 
+## 1.0.6
+
+### Patch Changes
+
+- 简化 4xx 和 5xx 异常类的构造函数，移除可选键参数，优化 BaseException 类的构造函数，增强代码可读性。
+
 ## 1.0.5
 
 ### Patch Changes
