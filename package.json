@@ -9,7 +9,7 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "set": "changeset",
     "ver": "changeset version",
-    "release": "turbo run build && changeset publish"
+    "release": "changeset publish"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",

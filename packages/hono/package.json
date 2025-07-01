@@ -1,6 +1,6 @@
 {
   "name": "@zkits/hono",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "",
   "type": "module",
   "exports": {
