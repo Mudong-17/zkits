@@ -1,6 +1,6 @@
 {
   "name": "@zkits/prettier",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "exports": {
     "./base": {
@@ -15,7 +15,8 @@
     "src"
   ],
   "scripts": {
-    "build": "tsup"
+    "build": "tsup",
+    "up:latest": "pnpm up --latest"
   },
   "keywords": [],
   "author": "",
@@ -33,12 +34,12 @@
   },
   "packageManager": "pnpm@10.5.2",
   "dependencies": {
-    "prettier": "^3.5.3",
+    "prettier": "^3.6.2",
     "prettier-plugin-multiline-arrays": "^4.0.3",
-    "prettier-plugin-organize-imports": "^4.1.0",
-    "prettier-plugin-packagejson": "^2.5.10",
+    "prettier-plugin-organize-imports": "^4.2.0",
+    "prettier-plugin-packagejson": "^2.5.19",
     "prettier-plugin-prisma": "^5.0.0",
-    "prettier-plugin-tailwindcss": "^0.6.11"
+    "prettier-plugin-tailwindcss": "^0.6.14"
   },
   "publishConfig": {
     "access": "public",

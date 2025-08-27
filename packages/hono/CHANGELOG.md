@@ -1,5 +1,11 @@
 # @zkits/hono
 
+## 0.0.4
+
+### Patch Changes
+
+- 更新依赖版本
+
 ## 0.0.3
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # @zkits/bin
 
+## 1.0.3
+
+### Patch Changes
+
+- 更新依赖版本
+
 ## 1.0.2
 
 ### Patch Changes

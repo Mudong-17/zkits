@@ -1,6 +1,6 @@
 {
   "name": "@zkits/tools",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "工具函数库",
   "exports": {
     "./crypto": {
@@ -25,6 +25,7 @@
   ],
   "scripts": {
     "build": "tsup",
+    "up:latest": "pnpm up --latest",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -32,7 +33,7 @@
   "license": "MIT",
   "packageManager": "pnpm@10.5.2",
   "dependencies": {
-    "@date-fns/tz": "^1.2.0",
+    "@date-fns/tz": "^1.4.1",
     "crypto-js": "^4.2.0",
     "date-fns": "^4.1.0"
   },

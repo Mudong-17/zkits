@@ -1,5 +1,11 @@
 # @zkits/tools
 
+## 1.0.7
+
+### Patch Changes
+
+- 更新依赖版本
+
 ## 1.0.6
 
 ### Patch Changes
