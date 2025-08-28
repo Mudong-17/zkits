@@ -1,13 +1,11 @@
 {
   "name": "@zkits/prettier",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "exports": {
     "./base": {
       "types": "./src/base.ts",
-      "default": "./dist/base.js",
-      "import": "./dist/base.mjs",
-      "require": "./dist/base.cjs"
+      "default": "./dist/base.js"
     }
   },
   "files": [
@@ -26,7 +24,6 @@
       "src/**/*.ts"
     ],
     "format": [
-      "esm",
       "cjs"
     ],
     "clean": true,
