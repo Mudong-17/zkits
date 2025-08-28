@@ -1,5 +1,11 @@
 # @zkits/prettier
 
+## 1.1.0
+
+### Minor Changes
+
+- 调整构建配置
+
 ## 1.0.3
 
 ### Patch Changes
