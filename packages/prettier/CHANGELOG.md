@@ -1,5 +1,11 @@
 # @zkits/prettier
 
+## 1.1.1
+
+### Patch Changes
+
+- 重新构建
+
 ## 1.1.0
 
 ### Minor Changes
