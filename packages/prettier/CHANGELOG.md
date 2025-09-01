@@ -1,5 +1,11 @@
 # @zkits/prettier
 
+## 1.1.2
+
+### Patch Changes
+
+- 修改prettier-plugin-multiline-arrays加载顺序
+
 ## 1.1.1
 
 ### Patch Changes
