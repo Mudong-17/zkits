@@ -1,8 +1,20 @@
 {
   "name": "@zkits/bin",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "author": {
+    "name": "暮冬拾柒",
+    "url": "https://github.com/Mudong-17/zkits"
+  },
   "bin": {
+    "changeset": "./bin/changeset.js",
+    "commitizen": "./bin/commitizen.js",
+    "git-cz": "./bin/git-cz.js",
+    "lint-staged": "./bin/lint-staged.js",
+    "sherif": "./bin/sherif.js",
+    "simple-git-hooks": "./bin/simple-git-hooks.js",
     "trash": "./bin/trash.js",
     "tsup": "./bin/tsup.js"
   },
@@ -12,17 +24,23 @@
     "dist"
   ],
   "scripts": {
-    "up:latest": "pnpm up --latest",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "up:latest": "pnpm up --latest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
-  "packageManager": "pnpm@10.5.2",
   "dependencies": {
+    "@changesets/changelog-github": "^0.5.1",
+    "@changesets/cli": "^2.29.6",
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "commitizen": "^4.3.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "lint-staged": "^16.1.5",
+    "sherif": "^1.6.1",
+    "simple-git-hooks": "^2.13.1",
     "trash-cli": "^6.0.0",
     "tsup": "^8.5.0"
   },
+  "packageManager": "pnpm@10.5.2",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
