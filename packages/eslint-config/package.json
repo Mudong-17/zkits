@@ -1,0 +1,55 @@
+{
+  "name": "@zkits/eslint-config",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "tsup"
+  },
+  "exports": {
+    "./base": {
+      "types": "./src/base.ts",
+      "default": "./dist/base.js"
+    }
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "author": {
+    "name": "暮冬拾柒",
+    "url": "https://github.com/Mudong-17/zkits"
+  },
+  "license": "MIT",
+  "packageManager": "pnpm@10.5.2",
+  "dependencies": {
+    "@babel/core": "^7.28.3",
+    "@babel/eslint-parser": "^7.28.0",
+    "@babel/preset-react": "^7.27.1",
+    "@typescript-eslint/eslint-plugin": "^8.42.0",
+    "@typescript-eslint/parser": "^8.42.0",
+    "eslint": "^8.57.1",
+    "eslint-config-alloy": "^5.1.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "eslint-plugin-tailwindcss": "^3.18.2"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.56.12"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "tsup": {
+    "entry": [
+      "src/**/*.ts"
+    ],
+    "format": [
+      "cjs"
+    ],
+    "clean": true,
+    "minify": true
+  }
+}
