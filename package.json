@@ -20,9 +20,10 @@
   "devDependencies": {
     "@changesets/cli": "^2.29.6",
     "@types/bun": "^1.2.21",
-    "@zkits/bin": "^1.0.3",
-    "@zkits/prettier": "^1.1.0",
-    "@zkits/tsconfig": "^1.0.0",
+    "@zkits/bin": "workspace:^",
+    "@zkits/eslint-config": "workspace:^",
+    "@zkits/prettier-config": "workspace:^",
+    "@zkits/tsconfig": "workspace:^",
     "turbo": "^2.5.6",
     "typescript": "^5.9.2"
   },
