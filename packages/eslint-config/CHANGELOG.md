@@ -1,5 +1,11 @@
 # @zkits/eslint-config
 
+## 0.0.2
+
+### Patch Changes
+
+- 新增tanstack/eslint-plugin-query
+
 ## 0.0.1
 
 ### Patch Changes
