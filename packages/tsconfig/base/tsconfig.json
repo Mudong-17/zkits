@@ -19,7 +19,7 @@
 
     // ======== Modules ========
     "module": "ESNext",
-    "moduleResolution": "node",
+    "moduleResolution": "Bundler",
     "resolveJsonModule": true,
 
     // ======== Interop Constraints ========

@@ -1,5 +1,11 @@
 # @zkits/tsconfig
 
+## 1.0.3
+
+### Patch Changes
+
+- 调整moduleResolution
+
 ## 1.0.2
 
 ### Patch Changes
