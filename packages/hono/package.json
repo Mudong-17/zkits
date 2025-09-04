@@ -18,7 +18,7 @@
   "keywords": [],
   "author": "",
   "license": "MIT",
-  "prettier": "@zkits/prettier/base",
+  "prettier": "@zkits/prettier-config/base",
   "packageManager": "pnpm@10.5.2",
   "dependencies": {
     "@hono/zod-validator": "^0.7.2"

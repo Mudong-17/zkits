@@ -1,0 +1,46 @@
+{
+  "name": "@zkits/sdk",
+  "version": "0.0.1",
+  "description": "常用 SDK",
+  "type": "module",
+  "exports": {
+    "./resend": {
+      "types": "./dist/resend/index.d.ts",
+      "default": "./dist/resend/index.js"
+    },
+    "./r2": {
+      "types": "./dist/r2/index.d.ts",
+      "default": "./dist/r2/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "up:latest": "pnpm up --latest"
+  },
+  "author": {
+    "name": "暮冬拾柒",
+    "url": "https://github.com/Mudong-17/zkits"
+  },
+  "license": "MIT",
+  "prettier": "@zkits/prettier-config/base",
+  "packageManager": "pnpm@10.5.2",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.879.0",
+    "resend": "^6.0.2"
+  },
+  "tsup": {
+    "entry": [
+      "src/**/*.ts"
+    ],
+    "format": [
+      "esm"
+    ],
+    "dts": true,
+    "clean": true,
+    "treeshake": true,
+    "minify": true
+  }
+}
