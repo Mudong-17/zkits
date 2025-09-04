@@ -20,12 +20,26 @@ export class EmailClient {
    * @param subject 邮件标题
    * @param html 邮件 HTML 内容
    */
-  async sendEmail(to: string, subject: string, html: string) {
+  async sendEmail({
+    to,
+    subject,
+    html,
+    text,
+    react,
+  }: {
+    to: string | string[];
+    subject: string;
+    html?: string;
+    text?: string;
+    react?: React.ReactNode;
+  }) {
     const { error, data } = await this.resend.emails.send({
       from: this.from,
-      to,
-      subject,
-      html,
+      to: to,
+      subject: subject,
+      html: html,
+      text: text,
+      react: react,
     });
 
     if (error) {
