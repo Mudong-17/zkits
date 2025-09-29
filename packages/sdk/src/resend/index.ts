@@ -1,3 +1,4 @@
+import type { ReactNode } from 'react';
 import { Resend } from 'resend';
 
 export interface EmailClientOptions {
@@ -31,7 +32,7 @@ export class EmailClient {
     subject: string;
     html?: string;
     text?: string;
-    react?: React.ReactNode;
+    react?: ReactNode;
   }) {
     const { error, data } = await this.resend.emails.send({
       from: this.from,

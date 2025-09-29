@@ -1,5 +1,11 @@
 # @zkits/sdk
 
+## 0.0.3
+
+### Patch Changes
+
+- update resend
+
 ## 0.0.2
 
 ### Patch Changes

@@ -1,7 +1,12 @@
 {
   "name": "@zkits/sdk",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "常用 SDK",
+  "license": "MIT",
+  "author": {
+    "name": "暮冬拾柒",
+    "url": "https://github.com/Mudong-17/zkits"
+  },
   "type": "module",
   "exports": {
     "./resend": {
@@ -20,17 +25,16 @@
     "build": "tsup",
     "up:latest": "pnpm up --latest"
   },
-  "author": {
-    "name": "暮冬拾柒",
-    "url": "https://github.com/Mudong-17/zkits"
-  },
-  "license": "MIT",
   "prettier": "@zkits/prettier-config/base",
-  "packageManager": "pnpm@10.5.2",
   "dependencies": {
     "@aws-sdk/client-s3": "^3.879.0",
-    "resend": "^6.0.2"
+    "@react-email/render": "^1.1.0",
+    "resend": "^6.0.3"
   },
+  "devDependencies": {
+    "@types/react": "^19.1.13"
+  },
+  "packageManager": "pnpm@10.5.2",
   "tsup": {
     "entry": [
       "src/**/*.ts"
