@@ -1,0 +1,4 @@
+{
+  "extends": "@zkits/tsconfig/base/tsconfig.json",
+  "include": ["src"]
+}

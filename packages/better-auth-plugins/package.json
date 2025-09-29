@@ -1,0 +1,48 @@
+{
+  "name": "@zkits/better-auth-plugins",
+  "version": "0.0.1",
+  "description": "better-auth plugins",
+  "type": "module",
+  "keywords": [
+    "better-auth",
+    "plugins"
+  ],
+  "exports": {
+    "./check-email": {
+      "types": "./dist/check-email/index.d.ts",
+      "default": "./dist/check-email/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "up:latest": "pnpm up --latest"
+  },
+  "author": {
+    "name": "暮冬拾柒",
+    "url": "https://github.com/Mudong-17/zkits"
+  },
+  "devDependencies": {
+    "better-auth": "~1.3.11",
+    "zod": "~4.1.9"
+  },
+  "peerDependencies": {
+    "better-auth": "~1.3.11",
+    "zod": "~4.1.9"
+  },
+  "license": "MIT",
+  "tsup": {
+    "entry": [
+      "src/**/index.ts"
+    ],
+    "format": [
+      "esm"
+    ],
+    "dts": true,
+    "clean": true,
+    "treeshake": true,
+    "minify": true
+  }
+}
